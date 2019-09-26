@@ -1,0 +1,7 @@
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                      PORTS                                            NAMES
+bfe376ddb3a3        postgres:latest       "docker-entrypoint.s…"   30 minutes ago      Up 30 minutes               5432/tcp                                         postgres_sql
+af961591fa5f        portainer/portainer   "/portainer"             34 minutes ago      Up 34 minutes               0.0.0.0:8000->8000/tcp, 0.0.0.0:9000->9000/tcp   condescending_ardinghelli
+da87d886fb8c        portainer/portainer   "/portainer"             10 hours ago        Exited (2) 4 hours ago                                                       confident_shockley
+10244042ed73        portainer/portainer   "/portainer"             22 hours ago        Exited (2) 21 hours ago                                                      hardcore_wozniak
+be65a6e94783        portainer/portainer   "/portainer"             23 hours ago        Exited (2) 22 hours ago                                                      cool_feynman
+fe74fc26e016        friendlyhello         "python app.py"          23 hours ago        Exited (137) 23 hours ago                                                    sad_euler
