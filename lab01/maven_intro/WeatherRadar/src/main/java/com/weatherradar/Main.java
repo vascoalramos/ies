@@ -9,6 +9,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.util.Iterator;
 
+/**
+ * main function with all the rendering logic
+ */
 public class Main {
     protected static final Logger logger = LogManager.getLogger();
 
