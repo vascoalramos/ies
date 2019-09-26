@@ -172,7 +172,16 @@ docker push username/repository:tag            			     # Upload tagged image to 
 docker run username/repository:tag                   			   # Run image from a registry
 ```
 
+## Portainer
 
+- **Create portainer volume**
+ ```
+docker volume create portainer_data
+```
+- **Run portainer**
+```
+docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+```
 
 
 
