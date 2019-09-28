@@ -7,4 +7,4 @@
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/detiuaveiro/map-reduce-88931_89348/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/vascoalramos/ies/blob/master/LICENSE) file for details
