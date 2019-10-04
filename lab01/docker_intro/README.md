@@ -1,8 +1,7 @@
-# 1.3 - Docker
+# Docker
 
-**Vasco António Lopes Ramos | LEI | nmec 88931**
 
-## I - Orientation and Setup
+## Orientation and Setup
 
 ### List Docker CLI commands
 ```
@@ -35,7 +34,7 @@ docker container ls -aq
 ```
 
 
-## II - Containers
+## Containers
 
 ### Your new development environment
 
@@ -173,7 +172,7 @@ docker run username/repository:tag                   			   # Run image from a re
 ```
 
 
-## III - Portainer
+## Portainer
 
 - **Create portainer volume**
  ```
@@ -191,3 +190,6 @@ docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.
 - [Portainer Installation](https://www.portainer.io/installation/)
 
 
+## Authors
+
+-   **Vasco Ramos (nmec 88931)** - [vascoalramos](https://github.com/vascoalramos)
