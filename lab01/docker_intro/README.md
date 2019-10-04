@@ -1,4 +1,4 @@
-﻿# 1.3 - Docker
+# 1.3 - Docker
 
 **Vasco António Lopes Ramos | LEI | nmec 88931**
 
@@ -172,7 +172,8 @@ docker push username/repository:tag            			     # Upload tagged image to 
 docker run username/repository:tag                   			   # Run image from a registry
 ```
 
-## Portainer
+
+## III - Portainer
 
 - **Create portainer volume**
  ```
@@ -183,5 +184,10 @@ docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 ```
 
+
+## References and Resources
+
+- [Get Started | Docker Documentation](https://docs.docker.com/get-started/)
+- [Portainer Installation](https://www.portainer.io/installation/)
 
 
