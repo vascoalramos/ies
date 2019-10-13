@@ -86,3 +86,8 @@ Connected to server
 6. `docker container run -it --publish 8081:8080 your_name/some-app-image`
 
 Your application can be accessed in _**http://localhost:8081**_.
+
+
+## Authors
+
+-   **Vasco Ramos (nmec 88931)** - [vascoalramos](https://github.com/vascoalramos)
