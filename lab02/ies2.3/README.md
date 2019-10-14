@@ -212,7 +212,7 @@ Now that the web site is running, visit [http://localhost:8090/greeting](http://
 
 "Hello, World!"
 
-Provide a `name` query string parameter with [http://localhost:8090/greeting?name=Vasco Ramos](http://localhost:8090/greeting?name=Vasco Ramos). Notice how the message changes from "Hello, World!" to "Hello, User!":
+Provide a `name` query string parameter with [http://localhost:8090/greeting?name=Vasco](http://localhost:8090/greeting?name=Vasco). Notice how the message changes from "Hello, World!" to "Hello, User!":
 
 "Hello, User!"
 
@@ -220,7 +220,7 @@ This change demonstrates that the [`@RequestParam`](https://docs.spring.io/sprin
 
 ### 8. Add a Home Page
 
-Static resources, like HTML or JavaScript or CSS, can easily be served from your Spring Boot application just by dropping them into the right place in the source code. By default Spring Boot serves static content from resources in the classpath at "/static" (or "/public"). The `index.html` resource is special because it is used as a "welcome page" if it exists, which means it will be served up as the root resource, i.e. at `[http://localhost:8090/](http://localhost:8090/)` in our example. So create this file:
+Static resources, like HTML or JavaScript or CSS, can easily be served from your Spring Boot application just by dropping them into the right place in the source code. By default Spring Boot serves static content from resources in the classpath at "/static" (or "/public"). The `index.html` resource is special because it is used as a "welcome page" if it exists, which means it will be served up as the root resource, i.e. at `http://localhost:8090/` in our example. So create this file:
 
 `src/main/resources/static/index.html`
 
@@ -236,7 +236,7 @@ Static resources, like HTML or JavaScript or CSS, can easily be served from your
 </body>
 </html>
 ```
-and when you restart the app you will see the HTML at [http://localhost:8080/](http://localhost:8080/).
+and when you restart the app you will see the HTML at [http://localhost:8090](http://localhost:8090/).
 
 
 ## Questions
