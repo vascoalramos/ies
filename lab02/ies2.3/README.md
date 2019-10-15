@@ -242,7 +242,7 @@ and when you restart the app you will see the HTML at [http://localhost:8090](ht
 ### Rest Aproach
 Follow the tutorial [Getting Started | Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/).
 
-To view the json returned by our recenlty created rest-api endpoint, we can either visit the url as usual (which we shouldn't do since we're now working with a rest-api that's supposed to handle requests and give responses in the backend and not in an html frontend kind of way), or with the app **Postman**
+To view the json returned by our recenlty created rest-api endpoint, we can either visit the url as usual (which we shouldn't do since we're now working with a rest-api that's supposed to handle requests and give responses in the backend and not in an html frontend kind of way), or with the app **Postman**.
 
 ![](https://i.imgur.com/vJ56I7s.png)
 Note how we tagged our request as a GET Request, and how, from the last exercise, we changed the end port from the default 8080 to our custom 8090.
