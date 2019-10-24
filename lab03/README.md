@@ -8,16 +8,16 @@
 ![Get All Employees](https://i.imgur.com/eQC4xvV.png)
 
 - Using the url [http://127.0.0.1:8080/employees/{id}](http://127.0.0.1:8080/employees/1) with a GET request, we can access a specific employee in the database:
-![Filter Employees]([https://i.imgur.com/ZVXBuXX.png](https://i.imgur.com/ZVXBuXX.png))
+![Filter Employees](https://i.imgur.com/ZVXBuXX.png)
 
 - Using the url [http://127.0.0.1:8080/employees/](http://127.0.0.1:8080/employees) with a POST request and the correct body, we can insert a new employee to the database:
-![Create New Employee]([https://i.imgur.com/kHeC5ty.png](https://i.imgur.com/kHeC5ty.png))
+![Create New Employee](https://i.imgur.com/kHeC5ty.png)
 
 - Using the url [http://127.0.0.1:8080/employees/{id}](http://127.0.0.1:8080/employees/3) with a PUT request and the correct body, we can update a specific employee of the database:
-![Create New Employee]([https://i.imgur.com/kHeC5ty.png](https://i.imgur.com/kHeC5ty.png))
+![Create New Employee](https://i.imgur.com/kHeC5ty.png)
 
 - Using the url [http://127.0.0.1:8080/employees/{id}](http://127.0.0.1:8080/employees/4) with a DELETE request, we can delete an employee from the database:
-![Delete Specific Employee]([https://i.imgur.com/eYeCDcp.png](https://i.imgur.com/eYeCDcp.png))
+![Delete Specific Employee](https://i.imgur.com/eYeCDcp.png)
 
 ### Create a layered architecture view (diagram), displaying the key abstractions in the solution, in particular: entities, repositories and REST controllers
 
