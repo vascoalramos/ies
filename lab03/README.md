@@ -44,3 +44,23 @@ The most likely reason was that the project was using Lombook (a library that in
 
 
 ## Accessing JPA Data with REST interface
+
+### Command to create an instance of MySQL server 
+`docker run -d -p 3306:3306 --name=mysql-server --env="MYSQL_ROOT_PASSWORD=123456" mysql`
+
+### Commands to access MySql within docker container:
+```
+docker  exec  -ti  mysql-server  bash  
+mysql  -u  root  -p
+```
+
+### Explain  the  annotations  `@Table`,  `@Column`,  `@Id`  found  in  the  Employee  entity.
+
+- `@Table`: It allows to specify the details of the table that is going to be used to stored all the date in the database.
+- `@Column`: is used to associate the column of the table with a specific field (we can specifiy the name of table, if it can be null, empty, etc).
+- `@Id`:   is used to specify some field as the primary key.
+
+### Explain  the  use  of  the  annotation  `@AutoWired`
+If we annotate a class with `@Autowired`, Spring will automatically resolve the instance and inject it into the class that declared it.
+
+This way, we don’t need to obtain the singleton instance ourselves.
