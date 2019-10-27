@@ -1,4 +1,4 @@
-package com.vasco.thymeleaf.thymeleaf;
+package com.vasco.thymeleaf;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
