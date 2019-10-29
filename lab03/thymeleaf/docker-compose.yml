@@ -1,0 +1,21 @@
+version: "3"
+services:
+  issue-jdbc:
+    image: issue-jdbc
+    ports:
+      - "8080:8080"
+    networks:
+      - issue-mysql
+    depends_on:
+      - mysqldb
+ 
+  mysqldb:
+    image: mysql:8
+    networks:
+      - issue-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bootdb  
+
+networks:
+  issue-mysql:
