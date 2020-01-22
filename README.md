@@ -1,6 +1,6 @@
 # Introduction to Software Engineering | UA 2019/2020
 
-Repository with all the practical labs of one of my classes: [Introduction to Software ](https://www.ua.pt/en/uc/12288).
+Repository with all the practical labs of one of my classes: [Introduction to Software](https://www.ua.pt/en/uc/12288).
 
 ## Table of Contents
 * **Lab01:** Maven, Git and Docker
